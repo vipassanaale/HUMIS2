@@ -1,0 +1,150 @@
+body {
+    background: #b3bca9;
+}
+
+div.container {
+    width: 780px;
+    min-height: 500px;
+    margin: 0 auto;
+    font-family: arial, helvetica, sans-serif;
+    background-color: white;
+}
+
+.container header {
+    min-height: 100px;
+}
+
+.container header > img{
+    display: block;
+}
+
+.nav {
+    text-align: right;
+    margin-right: 1rem;
+}
+
+.nav a {
+    color: black;
+    text-transform: uppercase;
+    margin: 0 3px;
+    padding: 5px;
+    text-decoration: none;
+    font-size: 70%;
+}
+
+div.nav span a:hover {
+    text-decoration: underline;
+}
+.nav span:after {
+    content: " |";
+}
+
+.nav span:last-of-type:after {
+    content: "";
+}
+
+.nav a:hover{
+    text-decoration: underline;
+}
+
+footer {
+    background-color: #55683a;
+    color: white;
+    font-size: 9px;
+    text-align: center;
+    padding: 5px 0;
+}
+
+.top a img {
+    vertical-align: middle;
+}
+
+.middle {
+    background-image: url('uofu_medallion_rt.gif');
+    background-position: bottom right;
+    background-repeat: no-repeat;
+}
+
+section.guts {
+    min-height: 500px;
+    background-color: #c1caae;
+    border-radius: 15px;
+    margin: 1rem 1rem 5.5rem 1rem;
+    padding: 1rem;
+}
+div.middle section.guts aside.nav{
+    float: left;
+    width: 220px;
+    min-height: 600px;
+}
+aside.nav a{
+    display: block;
+    text-align: left;
+    border-bottom: 1px solid #2b452b;
+    font-size: 75%;
+    padding: 10px;
+    margin: 0 10px 0 20px;
+}
+div.middle section.guts article.main{
+    float: right;
+    width: 460px;
+    background-color: #fff;
+    padding: 0.5rem;
+}
+aside.nav > a:hover{
+    background-color: #2b452b;
+    color: white;
+    text-decoration: underline;
+}
+/* Fix background hover color to login */
+div.login-container{
+    margin-top: 200px;
+}
+div.login-container a{
+    border-bottom: none;
+}
+div.login-container a:hover{
+    background-color: #000000;
+}
+article.main img{
+    width: 100%;
+}
+article.main h1{
+    border-bottom: 2px dotted red;
+    text-transform: uppercase;
+    color: #55683a;
+    font-weight: normal;
+    font-size: 85%;
+    padding-bottom: 3px;
+    margin-bottom: 0.5rem;
+}
+article.main div.content{
+    height: 130px;
+    overflow: auto;
+}
+div.content p{
+    margin-top: 0rem;
+    font-size: 14px;
+}
+div.content p span{
+    font-weight: bold;
+}
+article.main a{
+    display: block;
+    text-align: right;
+    margin: 0.5rem 0;
+    color: #6a0000;
+    text-decoration: none;
+    font-size: 75%;
+    text-transform: uppercase;
+}
+article.main a:hover{
+    text-decoration: underline;
+}
+
+.bottom a {
+    text-transform: lowercase;
+    vertical-align: middle;
+    font-size: 9px;
+}
+
